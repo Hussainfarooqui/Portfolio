@@ -85,3 +85,27 @@
     /* small niceties */
     a.link{color:var(--accent);text-decoration:none;font-weight:700}
     .muted-2{color:rgba(255,255,255,0.06)}
+
+
+    /* === Fix Text Visibility === */
+body, .card, .intro h2, .intro p, .about p, .project p, .timeline-item div, footer {
+  color: #e8f0fa;
+}
+
+.muted, .chip, small, .muted-2 {
+  color: #b0bcc9 !important;
+}
+
+.skill, .btn, .link {
+  color: var(--accent);
+}
+
+/* Optional slight text glow for contrast */
+body, .card, .intro p, .project p {
+  text-shadow: 0 0 6px rgba(255,255,255,0.06);
+}
+
+/* Darker card background to separate text more */
+.card {
+  background: rgba(255,255,255,0.04);
+}
