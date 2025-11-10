@@ -8,21 +8,15 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="wrap">
     <header>
       <div class="brand">
-        <div class="logo">MH</div>
+        <div class="logo"><img src="./assets/Profile.jpg" alt="Profile"></div>
         <div>
           <h1>Muhammad Hussain Ahmed Farooqui</h1>
           <p>Frontend Developer — aspiring Full-Stack Developer</p>
@@ -38,9 +32,9 @@
     <main>
       <div>
         <div class="card hero">
-          <div class="me">MH</div>
+          <div class="me"><img src="./assets/Profile.jpg" alt="Profile Photo"></div>
           <div class="intro">
-            <h2>Hi — I'm Hussain. I build user-focused web apps.</h2>
+            <h2>Hello, I'm Hussain. I build user-focused web apps.</h2>
             <p>Detail-oriented Frontend developer experienced with HTML, CSS, Bootstrap, JavaScript and building full-stack projects with React, NestJS, and PostgreSQL.</p>
 
             <div class="contact">
@@ -52,59 +46,69 @@
         </div>
 
         <section id="skills" class="card">
-          <h3>Skills</h3>
+          <h3>Skills & Frameworks</h3>
           <div class="skills">
             <div class="skill">HTML5</div>
             <div class="skill">CSS3</div>
-            <div class="skill">JavaScript (Basic)</div>
-            <div class="skill">React (Basic)</div>
-            <div class="skill">Node.js / Express (Basic)</div>
-            <div class="skill">NestJS (Basic)</div>
-            <div class="skill">PostgreSQL (Basic)</div>
-            <div class="skill">Python (Basic)</div>
-            <div class="skill">Communication</div>       
+            <div class="skill">Bootstrap</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">NestJS</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">Python</div>
           </div>
         </section>
 
         <section id="projects" class="card">
           <h3>Projects</h3>
           <div class="projects-grid">
-            <div class="project" data-title="Face Detection System" data-desc="Real-time face detection using Python and OpenCV with webcam integration." data-tech="Python, OpenCV, Computer Vision" data-link="#">
+            <div class="project">
               <h4>Face Detection System</h4>
               <p>Real-time detection using computer vision and webcam input.</p>
               <small>Python · OpenCV</small>
+              <a href="https://github.com/Hussainfarooqui/Face_Detection_System.git">View on GitHub</a>
             </div>
 
-            <div class="project" data-title="Climate-RAG ChatBot" data-desc="Retrieval-Augmented Generation based chatbot providing climate-related answers and context-aware responses." data-tech="RAG, NLP, Python" data-link="#">
+            <div class="project">
               <h4>Climate-RAG ChatBot</h4>
               <p>Chatbot that answers climate questions using RAG techniques.</p>
               <small>RAG · NLP</small>
+              <a href="https://github.com/Hussainfarooqui/Climate-Rag-ChatBot-.git">View on GitHub</a>
+              <a href="https://nlp-ccp-climate-rag-chatbot.streamlit.app/" target="_blank" style="margin-left:6px;color:var(--accent);font-size:13px;">Live</a>
             </div>
 
-            <div class="project" data-title="Kanban App" data-desc="Full-stack Kanban board with authentication, dynamic boards, and task tracking. React frontend, NestJS backend, PostgreSQL database." data-tech="React, NestJS, PostgreSQL" data-link="#">
+            <div class="project">
               <h4>Kanban App (Full-Stack)</h4>
               <p>Task management app with boards and authentication.</p>
               <small>React · NestJS · PostgreSQL</small>
+              <a href="https://github.com/Hussainfarooqui/Kanban-App.git">View on GitHub</a>
             </div>
 
-            <div class="project" data-title="Stopwatch" data-desc="Digital stopwatch with start/pause/reset implemented in vanilla JS with responsive UI." data-tech="HTML, CSS, JavaScript" data-link="#">
+            <div class="project">
               <h4>Stopwatch</h4>
               <p>Lightweight digital stopwatch with clean UI.</p>
               <small>HTML · JS</small>
+              <a href="https://github.com/Hussainfarooqui/StopWatch.git">View on GitHub</a>
+              <a href="https://stopwatchbyhussain.netlify.app/" target="_blank" style="margin-left:6px;color:var(--accent);font-size:13px;">Live</a>
             </div>
 
-            <div class="project" data-title="Quiz App" data-desc="Interactive quiz app with timer, scoring and responsive layout." data-tech="HTML, CSS, JavaScript" data-link="#">
+            <div class="project">
               <h4>Quiz App</h4>
               <p>Interactive timed quizzes with scoring system.</p>
               <small>HTML · JS</small>
+              <a href="https://github.com/Hussainfarooqui/QuizApp.git">View on GitHub</a>
+              <a href="https://quizapp-hu.netlify.app/" target="_blank" style="margin-left:6px;color:var(--accent);font-size:13px;">Live</a>
+
             </div>
 
-            <div class="project" data-title="FFMI Calculator" data-desc="Fat-Free Mass Index calculator allowing height/weight/body-fat input with instant results." data-tech="JavaScript, UI" data-link="#">
+            <div class="project">
               <h4>FFMI Calculator</h4>
               <p>Fitness calculator for FFMI with clean UI and instant feedback.</p>
               <small>JS · UI</small>
+              <a href="https://github.com/Hussainfarooqui/FFMI.git">View on GitHub</a>
+              <a href="https://ffmi.netlify.app/" target="_blank" style="margin-left:6px;color:var(--accent);font-size:13px;">Live</a>
             </div>
-
           </div>
         </section>
 
@@ -114,13 +118,12 @@
             <div class="timeline-item">
               <div class="dot"></div>
               <div>
-                <strong>RSP (Business Development) — WEBNIKE (Masterminds Enterprises)</strong>
-                <div class="muted">Approx. 3 years — Team collaboration & community projects</div>
+                <strong class="exp">RSP (Business Development) — WEBNIKE (Masterminds Enterprises)</strong>
+                <div class="muted">Approx. 3 years — Team collaboration</div>
               </div>
             </div>
           </div>
         </section>
-
       </div>
 
       <aside>
@@ -136,7 +139,7 @@
               </div>
               <div class="stat">
                 <h4>6+</h4>
-                <div class="muted">Projects (personal / academic)</div>
+                <div class="muted">Projects</div>
               </div>
             </div>
 
@@ -147,6 +150,11 @@
               <div class="muted">Latif Niazi High School — Science (2019)</div>
             </div>
 
+            <div class="courses">
+              <h3>Courses</h3>
+              <div class="muted">Full-Stack Development Course</div>
+              <div class="muted">Mobile Application & Web Development Course</div>
+            </div>
           </section>
 
           <section id="contact" style="margin-top:14px">
@@ -158,7 +166,6 @@
               <a class="link" href="./assets/Muhammad Hussain Ahmed Farooqui.pdf">📄 Download CV</a>
             </div>
           </section>
-
         </div>
       </aside>
     </main>
@@ -167,65 +174,5 @@
       Built with ❤️ — Muhammad Hussain Ahmed Farooqui • <span class="muted">2025</span>
     </footer>
   </div>
-
-  <!-- Modal -->
-  <div id="modal" class="modal-backdrop" role="dialog" aria-hidden="true">
-    <div class="modal" role="document">
-      <div style="display:flex;justify-content:space-between;align-items:center">
-        <h3 id="modalTitle">Project</h3>
-        <button class="close" id="closeModal">✕</button>
-      </div>
-      <p id="modalDesc" class="muted" style="margin-top:8px"></p>
-      <p id="modalTech" style="margin-top:12px"></p>
-      <div style="margin-top:14px;display:flex;gap:8px">
-        <a id="modalRepo" class="btn" href="#">View Repo</a>
-        <a id="modalLive" class="btn secondary" href="#">Live Demo</a>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // --- Project modal logic
-    const projects = document.querySelectorAll('.project');
-    const modal = document.getElementById('modal');
-    const modalTitle = document.getElementById('modalTitle');
-    const modalDesc = document.getElementById('modalDesc');
-    const modalTech = document.getElementById('modalTech');
-    const modalRepo = document.getElementById('modalRepo');
-    const modalLive = document.getElementById('modalLive');
-    const closeModal = document.getElementById('closeModal');
-
-    projects.forEach(p => {
-      p.addEventListener('click', () => {
-        modalTitle.textContent = p.dataset.title || 'Project';
-        modalDesc.textContent = p.dataset.desc || '';
-        modalTech.textContent = 'Tech: ' + (p.dataset.tech || '—');
-        modalRepo.href = p.dataset.link || '#';
-        modalLive.href = p.dataset.link || '#';
-        modal.style.display = 'flex';
-        modal.setAttribute('aria-hidden','false');
-      })
-    })
-    closeModal.addEventListener('click', () => {
-      modal.style.display = 'none';
-      modal.setAttribute('aria-hidden','true');
-    })
-    modal.addEventListener('click', (e) => {
-      if(e.target === modal) { modal.style.display='none'; modal.setAttribute('aria-hidden','true'); }
-    })
-
-    // --- Download CV behaviour (will download the uploaded PDF if placed at /assets/CV.pdf)
-    document.getElementById('downloadCv').addEventListener('click', (e) => {
-      e.preventDefault();
-      const url ='./assets/Muhammad Hussain Ahmed Farooqui.pdf';
-      window.open(url, '_blank');
-    });
-
-    // Small accessibility: keyboard ESC to close modal
-    document.addEventListener('keydown', (e) => {
-      if(e.key === 'Escape') { modal.style.display = 'none'; modal.setAttribute('aria-hidden','true'); }
-    });
-
-  </script>
 </body>
 </html>
